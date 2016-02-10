@@ -1,67 +1,29 @@
 # Assignment report
----
-Thu Jan 14 18:39:37 2016
+## Task: Nokia 3310 (Task 1)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-## task1.c
+### Testcase 1 passed
+## Task: Nokia 3310 (Task 1)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-**File successfully compiled**
+### Not submitted
+## Task: Rudolph (Task 3)
+https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
 
-### Task details
+Failed compiling
 
-Name: Task: colors
+Exit code: 1
 
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
-
-Points: 10
-
-#### Test cases
-Test case 0 failed ✘
-
----
-Expected:
+Error
 ```
-rgb(77, 0, 230)
-```
-But was:
-```
-0 0
-```
-Test case 1 failed ✘
+/Volumes/Data/elsys/po-homework/2015-2016/G/14/08/task3.c:47:14: error: expected '}'
+    return 0;
+             ^
+/Volumes/Data/elsys/po-homework/2015-2016/G/14/08/task3.c:4:11: note: to match this '{'
+int main(){
+          ^
+1 error generated.
 
----
-Expected:
 ```
-#fbff4d
-```
-But was:
-```
-0 0
-```
---- 
-#### Final points: 0
-## task2.c
 
-**File successfully compiled**
 
-### Task details
-
-Name: Task: Nokia 3310
-
-Description: https://docs.google.com/document/d/1B-ZN-pwSB-dur0p8-I6wCR30YU9-cazD3RDD0xIHM-8/edit
-
-Points: 5
-
-#### Test cases
-Test case 0 failed ✘
-
----
-Expected:
-```
-35
-```
-But was:
-```
-4
-```
---- 
-#### Final points: 0

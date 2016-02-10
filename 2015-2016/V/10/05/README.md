@@ -1,33 +1,44 @@
 # Assignment report
----
-Mon Jan 11 22:25:02 2016
+## Matrix (Task 1)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
 
-## Evaluating palindrome .c
-
-File doesn't match naming convention
-
-## Evaluating task2.c
-
-**File compiled with error or warnings**
-
+### Testcase 1 failed
+Input
 ```
-/home/tsvetelina/elsys/po-homework/2015-2016/V/10/05/task2.c: In function ‘main’:
-/home/tsvetelina/elsys/po-homework/2015-2016/V/10/05/task2.c:8:4: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
-    gets(s);
-    ^
-/home/tsvetelina/elsys/po-homework/2015-2016/V/10/05/task2.c:11:4: warning: implicit declaration of function ‘strrev’ [-Wimplicit-function-declaration]
-    strrev(b);
-    ^
-/tmp/ccEmYfhG.o: In function `main':
-task2.c:(.text+0x34): warning: the `gets' function is dangerous and should not be used.
-task2.c:(.text+0x5b): undefined reference to `strrev'
-collect2: error: ld returned 1 exit status
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
 ```
 
-### Task details:
 
-Name: Palindrome
+Expected
+```
+1 5 9 13 2 6 10 14 3 7 11 15 4 8 12 16
+```
 
-Description: https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
 
-Points: 5
+Output
+```
+1	5	9	13	 2	6	10	14	 3	7	11	15	 4	8	12	16	 
+```
+
+## Palindrome (Task 2)
+https://drive.google.com/drive/folders/0B83l5t-0yjU7elZ1MmtNQzFYWkk
+
+Failed compiling
+
+Exit code: 1
+
+Error
+```
+/Volumes/Data/elsys/po-homework/2015-2016/V/10/05/task2.c:11:4: warning: implicit declaration of function 'strrev' is invalid in C99 [-Wimplicit-function-declaration]
+   strrev(b);
+   ^
+1 warning generated.
+Undefined symbols for architecture x86_64:
+  "_strrev", referenced from:
+      _main in task2-eb2bae.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+```
+
+

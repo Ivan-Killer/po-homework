@@ -3,7 +3,7 @@
 void next_generation(int *current, int *next, int length)
 {
     int i;
-    for(i = 1;i < length - 1; i++)
+    for(i = 1; i < length - 1; i++)
     {
         int number = 0;
         if(current[i - 1] == 1)
@@ -26,7 +26,7 @@ int main()
     int next[21];
     int length;
     scanf("%d",&length);
-    int i,  i1, i2, i3, i4;
+    int i,i1,i3,i4;
     for( i = 0 ;i < length;i++)
     {
         scanf("%d",&current[i]);
